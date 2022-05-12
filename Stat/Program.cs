@@ -13,6 +13,7 @@ builder.Services.AddTransient<IService, Service>();
 
 
 var app = builder.Build();
+//just git test
 
 
 if (app.Environment.IsDevelopment())
